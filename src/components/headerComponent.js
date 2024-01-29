@@ -1,27 +1,9 @@
-import React, { useState } from 'react';
-import {  Container, NavDropdown } from 'react-bootstrap';
-import { Nav, Navbar, NavbarBrand } from 'react-bootstrap';
+import React from 'react';
+import {  Container } from 'react-bootstrap';
+import {  Navbar, NavbarBrand } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [isOpen1, setIsOpen1] = useState(false);
-
-    const mouseHover = () => {
-        setIsOpen(true);
-    };
-
-    const mouseLeave = () => {
-        setIsOpen(false);
-    };
-
-    const mouseHover1 = () => {
-        setIsOpen1(true);
-    };
-
-    const mouseLeave1 = () => {
-        setIsOpen1(false);
-    };
     return (
     <Navbar expand="lg" bg='light' variant='light' className='bg-body-teritiary'>
         <Container>
