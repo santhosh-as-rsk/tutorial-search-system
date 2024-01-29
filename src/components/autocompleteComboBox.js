@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
 import {TextField, Autocomplete} from '@mui/material';
-// import Autocomplete from '@mui/material/Autocomplete';
-// import useMediaQuery from '@mui/material/useMediaQuery';
-// import { useTheme } from '@mui/material/styles';
-// import ManageSearchIcon from '@mui/icons-material/ManageSearch';
-// import {InputAdornment} from '@mui/material';
 
 export const AutocompleteMultipleSelect = (props) => {
   const [limitTags] = useState(3);
